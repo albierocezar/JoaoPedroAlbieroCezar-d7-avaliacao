@@ -24,5 +24,10 @@ namespace JoaoPedroAlbieroCezar_d7_avaliacao
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -5,8 +5,64 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JoaoPedroAlbieroCezar_d7_avaliacao"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="660" Width="480">
     <Grid>
+        <Canvas>
 
+            <Label Content="Autenticação de Usuário"
+                   Width="287"
+                   FontWeight="Bold"
+                   FontSize="24"
+                   FontFamily="Inter"
+                   Canvas.Left="95"
+                   Canvas.Top="60">
+            </Label>
+
+            <Label Content="Usuário"
+                   FontFamily="Inter"
+                   FontSize="16"
+                   Canvas.Left="60"
+                   Canvas.Top="145">
+            </Label>
+
+            <TextBox Width="360"
+                     Height="60"
+                     Canvas.Left="60"
+                     Canvas.Top="180"
+                     Background="#D9D9D9">
+            </TextBox>
+
+            <Label Content="Senha"
+                   FontFamily="Inter"
+                   FontSize="16"
+                   Canvas.Left="60"
+                   Canvas.Top="325">
+            </Label>
+
+            <TextBox Width="360"
+                     Height="60"
+                     Canvas.Left="60"
+                     Canvas.Top="360"
+                     Background="#D9D9D9">
+            </TextBox>
+
+            <Button Content="Acessar"
+                    FontFamily="Inter"
+                    FontWeight="SemiBold"
+                    FontSize="16"
+                    Height="60"
+                    Width="240"
+                    Background="#D9D9D9"
+                    Margin="0,0,0,60"
+                    Canvas.Left="120"
+                    Canvas.Top="540"
+                    Click="Button_Click"
+                    >
+            </Button>
+        </Canvas>
+        
+        <Border CornerRadius="100"
+                BorderThickness="5">
+        </Border>
     </Grid>
 </Window>
