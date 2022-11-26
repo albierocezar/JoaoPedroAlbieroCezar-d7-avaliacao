@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:JoaoPedroAlbieroCezar_d7_avaliacao"
         mc:Ignorable="d"
         Title="MainWindow" Height="660" Width="480">
-    <Grid>
+    <Grid x:Name="MainGrid">
         <Canvas>
 
             <Label Content="Autenticação de Usuário"
@@ -25,8 +25,11 @@
                    Canvas.Top="145">
             </Label>
 
-            <TextBox Width="360"
+            <TextBox x:Name="Usuario"
+                     Width="360"
                      Height="60"
+                     FontSize="24"
+                     VerticalContentAlignment="Center"
                      Canvas.Left="60"
                      Canvas.Top="180"
                      Background="#D9D9D9">
@@ -39,14 +42,18 @@
                    Canvas.Top="325">
             </Label>
 
-            <TextBox Width="360"
+            <TextBox x:Name="Senha"
+                     Width="360"
                      Height="60"
+                     FontSize="24"
+                     VerticalContentAlignment="Center"
                      Canvas.Left="60"
                      Canvas.Top="360"
                      Background="#D9D9D9">
             </TextBox>
 
-            <Button Content="Acessar"
+            <Button x:Name="showModal"
+                    Content="Acessar"
                     FontFamily="Inter"
                     FontWeight="SemiBold"
                     FontSize="16"
@@ -59,10 +66,14 @@
                     Click="Button_Click"
                     >
             </Button>
+
         </Canvas>
         
+
         <Border CornerRadius="100"
                 BorderThickness="5">
         </Border>
+
     </Grid>
+    
 </Window>

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FluentAssertions.Common;
+using JoaoPedroAlbieroCezar_d7_avaliacao.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
 
 namespace JoaoPedroAlbieroCezar_d7_avaliacao

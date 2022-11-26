@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace JoaoPedroAlbieroCezar_d7_avaliacao.Data
 {
-    internal class User
+    public class User
     {
-        private string username { get; set; }
-        private string password { get; set; }
+        public int Id { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+
     }
 }
