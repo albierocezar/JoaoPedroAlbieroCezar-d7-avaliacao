@@ -32,8 +32,8 @@ namespace JoaoPedroAlbieroCezar_d7_avaliacao
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            user.username = Usuario.Text;
-            user.password = Senha.Text;
+            //user.username = Usuario.Text;
+            //user.password = Senha.Text;
 
             using (var context = new Context())
             {

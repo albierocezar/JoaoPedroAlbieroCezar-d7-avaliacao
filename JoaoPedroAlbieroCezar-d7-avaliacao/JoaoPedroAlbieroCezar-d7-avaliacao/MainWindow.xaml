@@ -26,6 +26,7 @@
             </Label>
 
             <TextBox x:Name="Usuario"
+                     Text="{Binding username}"
                      Width="360"
                      Height="60"
                      FontSize="24"
@@ -43,6 +44,7 @@
             </Label>
 
             <TextBox x:Name="Senha"
+                     Text="{Binding password}"
                      Width="360"
                      Height="60"
                      FontSize="24"
